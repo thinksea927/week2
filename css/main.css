@@ -1,0 +1,180 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  font-family: Roboto, Microsoft JhengHei, sans-serif, serif, monospace;
+  font-size: 24px;
+}
+
+.fc-light {
+  color: #ffffff;
+}
+
+.f-italic {
+  font-style: italic;
+}
+
+.f-bold {
+  font-weight: bolder;
+}
+
+.fz-s {
+  font-size: 20px;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.mb-3 {
+  margin-bottom: 24px;
+}
+
+.mb-4 {
+  margin-bottom: 32px;
+}
+
+.mb-5 {
+  margin-bottom: 40px;
+}
+
+.mb-6 {
+  margin-bottom: 48px;
+}
+
+.mb-7 {
+  margin-bottom: 56px;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-space-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.justify-space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header {
+  height: 960px;
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 356px;
+}
+
+h1 {
+  position: relative;
+  font-size: 80px;
+  line-height: 94px;
+}
+
+h2 {
+  font-size: 64px;
+  line-height: 75px;
+}
+
+p {
+  line-height: 42px;
+}
+
+img {
+  display: block;
+}
+
+.about {
+  padding-top: 64px;
+  padding-bottom: 56px;
+}
+
+.about p {
+  border-bottom: 1px solid #000;
+  padding-bottom: 32px;
+}
+
+.about img {
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.about li {
+  line-height: 42px;
+}
+
+.about li:before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  border-radius: 999em;
+  background-color: #891818;
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.brand {
+  background-color: #000000;
+  border: 1px solid #707070;
+  padding-top: 64px;
+  padding-bottom: 160px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wrap {
+  width: 100%;
+}
+
+.work {
+  background-image: url(../img/photo-1.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  padding-top: 64px;
+  padding-bottom: 106px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.imgContainer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.imgContainer img {
+  width: 100%;
+}
+
+.imgContainer ul:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #000000;
+  padding-top: 64px;
+  padding-bottom: 80px;
+}
