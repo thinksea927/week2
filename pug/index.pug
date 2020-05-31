@@ -6,12 +6,13 @@ html(lang="en")
         link(rel="stylesheet", href="css/reset.css")
         link(rel="stylesheet", href="css/main.css")
         link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css")
         title week2
     body
         .header.d-flex.justify-content-center.fc-light
             .group
                 span.f-italic Here’s
-                h1.f-italic.f-bold.mb-4 JOANNE
+                h1.f-italic.f-bold.mb-4.animate__animated.animate__bounce JOANNE
                 p.f-italic.mb-6 Founder of ‘’XXXD Official’’
                     br 
                     |& Graphic Designer
@@ -32,9 +33,9 @@ html(lang="en")
 
         .about.d-flex.justify-content-center
             .wrap.t-center.f-italic.f-bold
-                h2.f-bold.mb-5 About
-                img(src="img/photo.png", alt="joanne img")
-                p.mb-4 Joanne Chen
+                h2.f-bold.mb-5(data-aos="fade-left") About
+                img(data-aos="fade-left")(src="img/photo.png", alt="joanne img")
+                p.mb-4(data-aos="fade-left") Joanne Chen
                     br
                     |1997/10/10
                     br
@@ -42,9 +43,9 @@ html(lang="en")
                     br
                     |Department of Visual Design
                 ul
-                    li.mb-4 Founder of ‘’XXXD Official’’
-                    li.mb-4 Graphic Designer
-                    li Graphic Intern of Hex School
+                    li.mb-4(data-aos="fade-left") Founder of ‘’XXXD Official’’
+                    li.mb-4(data-aos="fade-left") Graphic Designer
+                    li(data-aos="fade-left") Graphic Intern of Hex School
         .brand.d-flex.justify-content-center.fc-light
             .wrap.t-center
                 h2.f-bold.f-italic.mb-2 My Brand ‘’XXXD’’
@@ -103,3 +104,7 @@ html(lang="en")
             p Mail：xxxd@hexschool.com
                 br
                 |Phone Number：0910123456
+        link(rel="stylesheet", href="https://unpkg.com/aos@next/dist/aos.css")
+        script(src="https://unpkg.com/aos@next/dist/aos.js")
+        script.
+            AOS.init();

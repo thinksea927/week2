@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&amp;display=swap"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <title>week2</title>
   </head>
   <body>
     <div class="header d-flex justify-content-center fc-light">
       <div class="group"><span class="f-italic">Here’s</span>
-        <h1 class="f-italic f-bold mb-4">JOANNE</h1>
+        <h1 class="f-italic f-bold mb-4 animate__animated animate__bounce">JOANNE</h1>
         <p class="f-italic mb-6">Founder of ‘’XXXD Official’’<br/>& Graphic Designer</p>
         <ul class="d-flex justify-space-between">
           <li><a href=""><img src="img/behance.svg" alt="behance"/></a></li>
@@ -23,12 +24,12 @@
     </div>
     <div class="about d-flex justify-content-center">
       <div class="wrap t-center f-italic f-bold">
-        <h2 class="f-bold mb-5">About</h2><img src="img/photo.png" alt="joanne img"/>
-        <p class="mb-4">Joanne Chen<br/>1997/10/10<br/>National Hex School Normal University<br/>Department of Visual Design</p>
+        <h2 class="f-bold mb-5" data-aos="fade-left">About</h2><img data-aos="fade-left" src="img/photo.png" alt="joanne img"/>
+        <p class="mb-4" data-aos="fade-left">Joanne Chen<br/>1997/10/10<br/>National Hex School Normal University<br/>Department of Visual Design</p>
         <ul>
-          <li class="mb-4">Founder of ‘’XXXD Official’’</li>
-          <li class="mb-4">Graphic Designer</li>
-          <li>Graphic Intern of Hex School</li>
+          <li class="mb-4" data-aos="fade-left">Founder of ‘’XXXD Official’’</li>
+          <li class="mb-4" data-aos="fade-left">Graphic Designer</li>
+          <li data-aos="fade-left">Graphic Intern of Hex School</li>
         </ul>
       </div>
     </div>
@@ -90,5 +91,8 @@
       <h2 class="mb-2">Contact</h2>
       <p>Mail：xxxd@hexschool.com<br/>Phone Number：0910123456</p>
     </footer>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
   </body>
 </html>
